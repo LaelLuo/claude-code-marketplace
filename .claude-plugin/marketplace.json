@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "openspec-marketplace",
+  "description": "Official OpenSpec plugin marketplace for spec-driven development tools",
+  "owner": {
+    "name": "OpenSpec",
+    "email": "openspec@fission.ai"
+  },
+  "plugins": [
+    {
+      "name": "openspec-workflow",
+      "description": "Automatically enables OpenSpec spec-driven development workflow in projects with openspec/ directory. Provides comprehensive workflow guidance, CLI command reference, and intelligent prompting for proposal creation.",
+      "version": "0.1.0",
+      "author": {
+        "name": "OpenSpec",
+        "email": "openspec@fission.ai"
+      },
+      "source": "./plugins/openspec-workflow",
+      "category": "development",
+      "homepage": "https://github.com/Fission-AI/OpenSpec",
+      "tags": ["spec-driven", "workflow", "development", "documentation"]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "openspec-workflow",
+  "version": "0.1.0",
+  "description": "Automatically enables OpenSpec spec-driven development workflow in projects with openspec/ directory",
+  "author": {
+    "name": "OpenSpec",
+    "email": "openspec@fission.ai"
+  },
+  "keywords": ["openspec", "spec-driven", "workflow", "development"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fission-AI/OpenSpec"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "hooks": [
+    {
+      "event": "SessionStart",
+      "type": "prompt",
+      "promptFile": "session-start.md",
+      "description": "Detect OpenSpec projects and activate workflow guidance"
+    },
+    {
+      "event": "UserPromptSubmit",
+      "type": "prompt",
+      "promptFile": "user-prompt-submit.md",
+      "description": "Monitor user input for OpenSpec workflow keywords and provide guidance"
+    }
+  ]
+}
