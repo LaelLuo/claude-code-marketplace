@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Skill(git-commit-zh)"
+      "Skill(git-commit-zh)",
+      "Bash(git fetch:*)"
     ]
   }
 }

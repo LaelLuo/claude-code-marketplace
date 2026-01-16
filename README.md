@@ -1,10 +1,10 @@
-# OpenSpec Marketplace
+# LaelLuo's Marketplace
 
-Official plugin marketplace for OpenSpec spec-driven development tools.
+Personal Claude Code plugin marketplace by LaelLuo.
 
 ## About
 
-This marketplace provides Claude Code plugins that enhance the OpenSpec workflow, making spec-driven development seamless and intuitive.
+This marketplace provides Claude Code plugins for various development workflows and productivity enhancements.
 
 ## Available Plugins
 
@@ -24,12 +24,12 @@ Automatically enables OpenSpec spec-driven development workflow in projects with
 # Add this marketplace to Claude Code
 # Edit ~/.claude/plugins/known_marketplaces.json and add:
 {
-  "openspec-marketplace": {
+  "laelluo-marketplace": {
     "source": {
       "source": "github",
-      "repo": "Fission-AI/openspec-marketplace"
+      "repo": "LaelLuo/claude-code-marketplace"
     },
-    "installLocation": "~/.claude/plugins/marketplaces/openspec-marketplace"
+    "installLocation": "~/.claude/plugins/marketplaces/laelluo-marketplace"
   }
 }
 
@@ -46,12 +46,12 @@ cc plugin install openspec-workflow
    Edit `~/.claude/plugins/known_marketplaces.json`:
    ```json
    {
-     "openspec-marketplace": {
+     "laelluo-marketplace": {
        "source": {
          "source": "github",
-         "repo": "Fission-AI/openspec-marketplace"
+         "repo": "LaelLuo/claude-code-marketplace"
        },
-       "installLocation": "~/.claude/plugins/marketplaces/openspec-marketplace",
+       "installLocation": "~/.claude/plugins/marketplaces/laelluo-marketplace",
        "lastUpdated": "2026-01-12T00:00:00.000Z"
      }
    }
@@ -59,7 +59,7 @@ cc plugin install openspec-workflow
 
 2. **Browse available plugins:**
    ```bash
-   cc plugin list --marketplace openspec-marketplace
+   cc plugin list --marketplace laelluo-marketplace
    ```
 
 3. **Install a plugin:**
@@ -69,7 +69,7 @@ cc plugin install openspec-workflow
 
 ### For Plugin Developers
 
-Want to add your OpenSpec-related plugin to this marketplace?
+Want to add a plugin to this marketplace?
 
 1. **Fork this repository**
 2. **Add your plugin** to `plugins/` directory
@@ -77,7 +77,6 @@ Want to add your OpenSpec-related plugin to this marketplace?
 4. **Submit a pull request**
 
 **Plugin requirements:**
-- Must be OpenSpec-related
 - Must follow Claude Code plugin standards
 - Must include comprehensive documentation
 - Must pass validation tests
@@ -85,7 +84,7 @@ Want to add your OpenSpec-related plugin to this marketplace?
 ## Marketplace Structure
 
 ```
-openspec-marketplace/
+laelluo-marketplace/
 ├── .claude-plugin/
 │   └── marketplace.json      # Marketplace configuration
 ├── plugins/
@@ -107,9 +106,7 @@ openspec-marketplace/
 
 ## Support
 
-- **Issues**: https://github.com/Fission-AI/OpenSpec/issues
-- **Discord**: https://discord.gg/YctCnvvshC
-- **Documentation**: https://github.com/Fission-AI/OpenSpec
+- **Issues**: https://github.com/LaelLuo/claude-code-marketplace/issues
 
 ## License
 

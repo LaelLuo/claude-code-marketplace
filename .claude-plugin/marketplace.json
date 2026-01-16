@@ -1,10 +1,10 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "openspec-marketplace",
-  "description": "Official OpenSpec plugin marketplace for spec-driven development tools",
+  "name": "laelluo-marketplace",
+  "description": "Personal Claude Code plugin marketplace by LaelLuo",
   "owner": {
-    "name": "OpenSpec",
-    "email": "openspec@fission.ai"
+    "name": "LaelLuo",
+    "email": "laelluo@example.com"
   },
   "plugins": [
     {
